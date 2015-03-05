@@ -21,7 +21,9 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
+<iframe src="https://player.vimeo.com/video/42737664" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/42737664">Cows</a> from <a href="https://vimeo.com/marosuperstar">Maro</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
 ![Photoresistors](/assets/img/posts/photoresistors.jpg)
 
