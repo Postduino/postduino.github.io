@@ -1,11 +1,21 @@
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+   	<meta charset="utf-8">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{{ site.description }}">
-
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-</head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="The awesome arduino bits and bobs subscription thing" />
+    <meta name="keywords" content="" />
+    <!--[if lte IE 8]><script src="/css/themestuff/ie/html5shiv.js"></script><![endif]-->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/init.js"></script>
+    <noscript>
+      <link rel="stylesheet" href="/css/themestuff/skel.css" />
+      <link rel="stylesheet" href="/css/themestuff/style.css" />
+      <link rel="stylesheet" href="/css/themestuff/style-wide.css" />
+    </noscript>
+      <link rel="stylesheet" href="/css/main.css" />
+     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <!--[if lte IE 8]><link rel="stylesheet" href="/css/themestuff/ie/v8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="/css/themestuff/ie/v9.css" /><![endif]-->
+  </head>

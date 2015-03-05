@@ -9,11 +9,11 @@
 	skel.init({
 		reset: 'full',
 		breakpoints: {
-			'global': { range: '*', href: 'css/themestuff/style.css', containers: 1360, grid: { gutters: 50 } },
-			'wide': { range: '-1680', href: 'css/themestuff/style-wide.css', containers: 1200, grid: { gutters: 40 } },
-			'normal': { range: '-1280', href: 'css/themestuff/style-normal.css', containers: 960, grid: { gutters: 30 } },
-			'narrow': { range: '-1000', href: 'css/themestuff/style-narrow.css', containers: '100%!', grid: { gutters: 25, collapse: true } },
-			'mobile': { range: '-736', href: 'css/themestuff/style-mobile.css', grid: { gutters: 20 }, viewport: { scalable: false } }
+			'global': { range: '*', href: '/css/themestuff/style.css', containers: 1360, grid: { gutters: 50 } },
+			'wide': { range: '-1680', href: '/css/themestuff/style-wide.css', containers: 1200, grid: { gutters: 40 } },
+			'normal': { range: '-1280', href: '/css/themestuff/style-normal.css', containers: 960, grid: { gutters: 30 } },
+			'narrow': { range: '-1000', href: '/css/themestuff/style-narrow.css', containers: '100%!', grid: { gutters: 25, collapse: true } },
+			'mobile': { range: '-736', href: '/css/themestuff/style-mobile.css', grid: { gutters: 20 }, viewport: { scalable: false } }
 		}
 	});
 

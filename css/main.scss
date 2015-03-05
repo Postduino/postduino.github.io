@@ -39,11 +39,83 @@ $on-laptop:        800px;
     }
 }
 
+ 
+#pageheader{
+position: relative;
+margin: 0;
+background-color: #00979C;
+background-image: url('/images/bg3.jpg');
+background-size: cover;
+background-position: top left, center center;
+background-repeat: repeat,	no-repeat;
+padding: 1em 0 1em 0;
+text-align: center;
+color: #fff;
+	h1{
+		font-family: 'Roboto';
+	}
+}
 
+
+.post{
+	text-align: left; 
+	header{
+	text-align: left;
+		h1{
+			font-size:3em;
+		}
+		p{
+			text-align: left;
+			font-size:1.3em;
+			.meta{
+
+			}
+		}
+	}
+	article{
+		text-align: left;
+		h3{
+			text-align: left;
+			font-size:1.6em;
+			font-weight:bold;
+			padding:0.5em 0 0.2em 0;
+
+		}
+		p{
+			text-align: left;
+			font-size:1.3em; 
+			margin:0.2em 0 1em 0;
+		code{
+			font-size:0.9em;  
+
+		}
+
+		}
+		pre{
+ 
+		}
+		code{
+			font-size:1.3em;  
+
+		}
+		a{
+			background-color: #FFFFC3;
+			color: #090919;
+		}
+	}
+}
+
+.sidebar{
+	 
+	text-align:left;
+	p, h3, form{
+	text-align:left;
+
+	}
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
+        "base", 
         "syntax-highlighting"
 ;
