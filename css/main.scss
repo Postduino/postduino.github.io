@@ -100,6 +100,13 @@ $on-laptop:        800px;
 	input{
 		color:#000;
 	}
+	input[type="email"] {
+		padding: 10px;
+		border: 0;
+		border-radius: 2px;
+		width: 80%;
+		margin-bottom: 1em;
+	}
 }
  
 
