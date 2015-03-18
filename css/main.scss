@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: 'Cabin', Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -15,7 +15,7 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #19314F;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -24,6 +24,13 @@ $grey-color-dark:  darken($grey-color, 25%);
 $on-palm:          600px;
 $on-laptop:        800px;
 
+
+//   / HEADER BITS
+
+// @media(max-width:767px){}
+// @media(min-width:768px){}
+// @media(min-width:992px){}
+// @media(min-width:1200px){}
 
 
 // Using media queries with like this:
@@ -38,6 +45,63 @@ $on-laptop:        800px;
         @content;
     }
 }
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base", 
+        "syntax-highlighting"
+;
+ 
+
+
+
+// STRIPEY BITS
+
+.paper{
+	width:100%;
+	padding:1.5em 0;
+}
+
+.yellow-concrete{
+	background:url('/img/subtle/concrete_seamless-yellow.png'); 
+}
+.blue-concrete{
+	background:url('/img/subtle/concrete_seamless-blue.png'); 
+}
+
+.yellow-notebook{
+	background:url('/img/subtle/notebook-yellow.png'); 
+}
+.blue-notebook{
+	background:url('/img/subtle/notebook-blue.png'); 
+}
+.white-nothing{
+	background:#f8f8f8; 
+}
+
+// / STRIPEY BITS
+
+
+//  HEADER BITS
+
+.masthead {
+	text-align:center;
+	img{
+		width:86%;
+		padding:2em 0;
+
+		@media (min-width: 768px) { width:60%; }
+	}
+}
+
+.proposition{
+	color:#fff;
+	input{
+		color:#000;
+	}
+}
+ 
 
  
 #pageheader{
@@ -114,8 +178,22 @@ color: #fff;
 	}
 }
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base", 
-        "syntax-highlighting"
-;
+
+// HOMEPAGE
+
+.feature-icon{
+	width:2em;
+}
+
+.gallery{
+	padding-bottom:2em;
+}
+
+h1{
+	padding-top:1em;
+}
+
+img.footavatar{
+	width:40%;
+}
+ 
