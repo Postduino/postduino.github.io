@@ -1,0 +1,11 @@
+---
+layout: postboot
+title:  "PODCAST -  Heading to kickstarter"
+author:  "stevenmilne"
+date:   2015-03-22 08:12:28
+categories: pre
+---
+So much changes in so little time. We have our sights set on kickstarter!
+
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198314139&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
